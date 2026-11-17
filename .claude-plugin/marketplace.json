@@ -1,0 +1,15 @@
+{
+  "name": "makebase",
+  "owner": {
+    "name": "Amr Hammoud",
+    "url": "https://makebase.dev"
+  },
+  "description": "makebase: Claude Code plugins by Amr Hammoud.",
+  "plugins": [
+    {
+      "name": "video",
+      "source": "./plugins/video",
+      "description": "video-start, video-montage and video-sound: edit short narrated videos with Remotion, and source, mix and master their sound."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "video",
+  "description": "Three skills for editing short narrated videos with Remotion: video-start (set up a computer, generate a complete local video repo, and the order of work), video-montage (timeline from word timings, captions, picture, freeze checks, blind audits) and video-sound (real licensed sound effects, earshot, cue-sheet mixing and mastering, agreeing the sound in context).",
+  "version": "1.1.1",
+  "author": {
+    "name": "Amr Hammoud"
+  }
+}

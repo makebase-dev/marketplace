@@ -1,0 +1,24 @@
+{
+  "name": "video-project",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "words": "python tools/words.py public/audio/narration.mp3 src/words.json",
+    "draft": "remotion render src/index.ts Video out/draft.mp4 --crf=18",
+    "check": "python tools/freeze_check.py out/draft.mp4 --mask 0.62 0.75",
+    "mix": "python tools/mix.py sound/sound.json --out build/sound --picture out/draft.mp4 --video out/final.mp4",
+    "share": "ffmpeg -y -v error -i out/final.mp4 -c:v libx264 -crf 28 -preset fast -c:a copy out/share.mp4",
+    "types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/media": "4.0.538",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "typescript": "^5.9.0"
+  }
+}

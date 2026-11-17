@@ -1,0 +1,14 @@
+{
+  "fps": 30,
+  "duration": "auto",
+  "clearance_db": 16,
+  "voice": {
+    "file": "../public/audio/narration.mp3",
+    "words": "../src/words.json",
+    "parts": "../src/parts.json",
+    "first_phrase_db": -2.5
+  },
+  "beds": [],
+  "dips": [],
+  "cues": []
+}

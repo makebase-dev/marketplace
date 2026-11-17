@@ -1,0 +1,82 @@
+{
+  "fps": 30,
+  "duration": "auto",
+  "clearance_db": 16,
+  "voice": {
+    "file": "../public/audio/narration.mp3",
+    "words": "../src/words.json",
+    "parts": "../src/parts.json",
+    "first_phrase_db": -2.5
+  },
+  "beds": [
+    {
+      "id": "ambience",
+      "file": "sfx/ambience.wav",
+      "skip": 0,
+      "level_db": -45,
+      "windows": [[0, 8.6], [15.2, 56.9]],
+      "duck_db": -8
+    }
+  ],
+  "dips": [{ "from": 34.6, "to": 35.5, "db": -10 }],
+  "cues": [
+    {
+      "id": "air_cut",
+      "file": "sfx/whoosh.wav",
+      "at": 8.6,
+      "align": "peak",
+      "level_db": -37,
+      "hp": 150,
+      "lp": 8000,
+      "dip_db": -6,
+      "pre": 0.8,
+      "max_len": 1.6,
+      "fade_in": 0.3,
+      "fade_out": 0.5,
+      "width": 0.8,
+      "peak_win": 0.1,
+      "note": "Air pass peaking on the cut to the map"
+    },
+    {
+      "id": "paper_photo",
+      "file": "sfx/paper.wav",
+      "at": 33.0,
+      "level_db": -46,
+      "hp": 300,
+      "lp": 7000,
+      "dip_db": -6,
+      "pre": 0.3,
+      "max_len": 1.0,
+      "fade_in": 0.05,
+      "fade_out": 0.4,
+      "note": "A photo appears"
+    },
+    {
+      "id": "riser_turn",
+      "file": "sfx/reverse_cymbal.wav",
+      "at": 26.3,
+      "align": "end",
+      "level_db": -27,
+      "hp": 120,
+      "lp": 6000,
+      "max_len": 2.0,
+      "fade_in": 0.6,
+      "fade_out": 0.02,
+      "featured": true,
+      "note": "Riser stops on the turn of the story"
+    },
+    {
+      "id": "hit_end",
+      "file": "sfx/low_hit.wav",
+      "at": 55.7,
+      "level_db": -27,
+      "hp": 50,
+      "lp": 900,
+      "pitch": 0.9,
+      "max_len": 3.2,
+      "fade_out": 2.2,
+      "featured": true,
+      "note": "Low boom on the last word, ringing into the end card"
+    }
+  ]
+}

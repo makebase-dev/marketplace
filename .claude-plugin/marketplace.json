@@ -7,6 +7,11 @@
   "description": "makebase: Claude Code plugins by Amr Hammoud.",
   "plugins": [
     {
+      "name": "ui",
+      "source": "./plugins/ui",
+      "description": "ui-craft, ui-audit and ui-prototype: design, review and prototype interfaces properly."
+    },
+    {
       "name": "video",
       "source": "./plugins/video",
       "description": "video-start, video-montage and video-sound: edit short narrated videos with Remotion, and source, mix and master their sound."

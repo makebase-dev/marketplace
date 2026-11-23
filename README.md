@@ -4,12 +4,14 @@ Claude Code plugins by [makebase](https://makebase.dev), free under the MIT lice
 
 | Plugin | Skills | What it does |
 |---|---|---|
+| [ui](plugins/ui/) | `ui-craft`, `ui-audit`, `ui-prototype` | Designs, reviews (WCAG 2.2 AA and UX laws) and prototypes interfaces, including dark themes, right-to-left and motion |
 | [video](plugins/video/) | `video-start`, `video-montage`, `video-sound` | Edits short narrated videos with Remotion, and sources, mixes and masters their sound |
 
 ## Install
 
 ```bash
 claude plugin marketplace add makebase-dev/marketplace
+claude plugin install ui@makebase
 claude plugin install video@makebase
 ```
 
@@ -21,6 +23,7 @@ Each plugin's README lists the tools it needs and how to set up a computer for i
 
 ```bash
 claude plugin marketplace update makebase
+claude plugin update ui@makebase
 claude plugin update video@makebase
 ```
 

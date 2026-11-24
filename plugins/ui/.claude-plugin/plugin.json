@@ -1,7 +1,7 @@
 {
   "name": "ui",
   "description": "Three skills for designing interfaces properly: ui-craft (how to design it well: hierarchy, dark themes, icons, motion, right-to-left, gamification), ui-audit (WCAG 2.2 AA and UX-law reviews, blind review rounds) and ui-prototype (from an idea to a working, reviewed prototype and design system).",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": {
     "name": "Amr Hammoud"
   }

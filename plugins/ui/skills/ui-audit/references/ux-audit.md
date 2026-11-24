@@ -56,6 +56,7 @@
 - Counts have units, breakdowns add up, one word per concept, docs match the page (`consistency.md`).
 - No pressure patterns in products for minors or learners (`consistency.md`, persuasive design).
 - Motion has a purpose and respects reduced motion (`motion-checks.md`).
+- No decoration, layout or wording that is there by default, and no figure without a source (`generated-look-checks.md`).
 - Accessibility basics: contrast, visible focus, no colour-only signals,
   keyboard reachable. For pass or fail on these, run the accessibility audit.
 

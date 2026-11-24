@@ -1,6 +1,6 @@
 ---
 name: ui-audit
-description: "Audit web UI for accessibility (WCAG 2.2 AA) and usability (UX laws such as Fitts, Hick, proximity), from a live page, a screenshot or code: pages, flows and single components, dark themes, right-to-left pages, motion, and content consistency, including blind repeated review rounds. Use when reviewing a page, screen, component or flow, or when checking a new screen against the laws."
+description: "Audit web UI for accessibility (WCAG 2.2 AA) and usability (UX laws such as Fitts, Hick, proximity), from a live page, a screenshot or code: pages, flows and single components, dark themes, right-to-left pages, motion, content consistency, and the habits that make a page look generated, including blind repeated review rounds. Use when reviewing a page, screen, component or flow, or when checking a new screen against the laws."
 ---
 
 # UI audit
@@ -21,6 +21,7 @@ Several rows usually match; read all of them.
 | The page is offered in a right-to-left language, or mixes languages | `references/rtl-checks.md` |
 | The page animates anything | `references/motion-checks.md` |
 | Any UX audit (data, wording, docs drift, persuasive design) | `references/consistency.md` |
+| A marketing page, landing page or hero, or the user says a screen looks generated or generic | `references/generated-look-checks.md` |
 | The user asks for blind, independent or repeated reviews, or after applying fixes | `references/review-rounds.md` |
 | Reviewing UI code, such as a diff, without rendering it | The `web-ui` skill when it is installed: each build reference whose row matches what the code changes. Otherwise `references/wcag22-aa.md` and `references/browser.md` "Without browser tools". Report each rule the code breaks as a finding |
 

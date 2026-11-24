@@ -1,6 +1,6 @@
 ---
 name: ui-craft
-description: "Design and refine interfaces that feel calm, clear and finished: visual hierarchy of components, dark themes that are comfortable at night, colour and contrast, icons (recognition over recall), motion and animation, right-to-left and multilingual UI, and light gamification for learners. Use when designing or polishing a screen or component, choosing a palette or dark theme, adding icons or animation, building for Arabic or other RTL languages, or when a design 'feels off' and needs another pass."
+description: "Design and refine interfaces that feel calm, clear and finished: visual hierarchy of components, dark themes that are comfortable at night, colour and contrast, icons (recognition over recall), motion and animation, right-to-left and multilingual UI, and light gamification for learners. Use when designing or polishing a screen or component, choosing a palette or dark theme, adding icons or animation, building for Arabic or other RTL languages, when a page looks generated or generic, or when a design 'feels off' and needs another pass."
 ---
 
 # UI craft
@@ -17,6 +17,7 @@ Lessons from building a dark-first, trilingual (EN/FR/AR) study product through 
 | Adding animation, transitions or celebrations | `references/motion.md` |
 | Arabic, Hebrew or any mixed-direction or multilingual UI | `references/rtl-i18n.md` |
 | Streaks, progress, badges, points, timers | `references/gamification.md` |
+| A marketing page, landing page or hero, or a design that looks generated or generic | `references/generated-look.md` |
 | Running review rounds, or taking design feedback | `references/review-loop.md` |
 | Final check before calling a screen done | `references/defects.md` |
 
